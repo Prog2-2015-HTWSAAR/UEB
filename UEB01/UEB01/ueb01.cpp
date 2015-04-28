@@ -4,7 +4,11 @@
 #include "ueb01.h"
 
 #define INDEXVAR 100
-
+/**
+MSin
+**/
+/*trdt
+*/
 int main(){
 	Person structArray[INDEXVAR];
 
