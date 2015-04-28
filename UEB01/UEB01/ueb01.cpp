@@ -25,18 +25,13 @@ int main(){
 	return 0;
 }
 
-/*void lesePerson(struct Person *structArray){
-	cout << "NAME: ";
-	cin >> personenArray[0];
-	cout << "VORNAME: ";
-	cin >> personenArray[1];
-	cout << "GEBURTSDATUM: ";
-	cin >> personenArray[2];
-}*/
+void lesePerson(struct Person *structArray){
+	
+}
 
 int steuereEingabe(struct Person *structArraye, int indexVar){
 	int saetze = 0;
-	lesePerson(structArraye[saetze]);
+	lesePerson(&structArraye[saetze]);
 	
 
 	return saetze;
