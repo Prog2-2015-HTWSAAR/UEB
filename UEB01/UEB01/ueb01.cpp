@@ -31,6 +31,8 @@ void lesePerson(struct Person *structArray){
 
 int steuereEingabe(struct Person *structArraye, int indexVar){
 	int saetze = 0;
+	int ende = 0;
+
 	lesePerson(&structArraye[saetze]);
 	
 
