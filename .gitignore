@@ -3,3 +3,9 @@
 *.opensdf
 *.tlog
 *.lastbuildstate
+*.sdf
+*.vcxproj*
+*.idb
+*exe
+/Debug
+/Release
