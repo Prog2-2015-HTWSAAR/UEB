@@ -25,6 +25,7 @@ void lesePerson(Person *subjekt){
 * @details Funktion zur Steuerung der Eingabe
 * @param[in] *structArray Ein Array von Personen
 * @param[in] maxanzahl Groesse des Arrays
+* @param[out] &structArray[saetze]
 * @param[out] saetze Anzahl der tatsaechlich gelesenen Saetze
 */
 int steuereEingabe(Person *structArray, int maxanzahl){
