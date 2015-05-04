@@ -1,4 +1,5 @@
 /**
+* compile: g++ -c -o -Wall -pedantic *.cpp per make
 * @file ausgabe.cpp
 * @Author Andreas Schreiner & Simon Bastian
 * @date 2015

@@ -1,9 +1,11 @@
 /**
+* compile: g++ -c -o -Wall -pedantic *.cpp per make
 * @mainpage Person
 * @file ueb01.cpp
 * @Author Andreas Schreiner & Simon Bastian
-* @date 2015
-*
+* 
+* @date 04.05.2015
+* 
 * Main Funktion
 * 
 
