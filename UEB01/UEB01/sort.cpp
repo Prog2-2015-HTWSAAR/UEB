@@ -7,6 +7,13 @@
 */
 #include "ueb01.h"
 
+/**
+* @brief tausch fkt
+* @details Funktion zum tauschen einer Person
+* @param[in] *personen
+* @param[in] person1 erster satz, welcher mit dem 2. satz getauscht wird
+* @param[in] person2 zweiter satz, welcher mit dem 1. satz getauscht wird
+*/
 void tauschePersonen(Person *personen, int person1, int person2){
 	Person helfer = personen[person1];
 	personen[person1] = personen[person2];

@@ -1,4 +1,5 @@
 /**
+* @mainpage Person
 * @file ueb01.cpp
 * @Author Andreas Schreiner & Simon Bastian
 * @date 2015
@@ -13,10 +14,10 @@
 #include "ueb01.h"
 
 #define INDEXVAR 100
+
 /**
-MSin
-**/
-/*trdt
+* @brief main fkt
+* @details main function
 */
 int main(){
 	Person structArray[INDEXVAR];
