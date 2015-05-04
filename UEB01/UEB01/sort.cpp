@@ -8,7 +8,7 @@
 #include "ueb01.h"
 
 /**
-* @brief tausch fkt
+* @brief tauschePersonen fkt
 * @details Funktion zum tauschen einer Person
 * @param[in] *personen pointer auf Personenstruktur
 * @param[in] person1 erster satz, welcher mit dem 2. satz getauscht wird

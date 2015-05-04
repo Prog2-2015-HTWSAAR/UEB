@@ -18,6 +18,16 @@
 /**
 * @brief main fkt
 * @details main function
+* @param[out] structArray Personenstruktur(steuereEingabe Fkt)
+* @param[out] INDEXVAR Maximale Feldgroesse(steuereEingabe Fkt)
+* @param[in] saetze Anzahl belegter Stellen im Personen Array(steuereEingabe Fkt)
+*
+* @param[out] structArray Personenstruktur(steuereAusgabe Fkt)
+* @param[out] saetze Maximale Feldgroesse(steuereAusgabe Fkt)
+*
+* @param[out] structArray Personenstruktur(sortierePersonen Fkt)
+* @param[out] saetze Maximale Feldgroesse(sortierePersonen Fkt)
+
 */
 int main(){
 	Person structArray[INDEXVAR];
