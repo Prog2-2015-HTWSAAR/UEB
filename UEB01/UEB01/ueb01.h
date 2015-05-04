@@ -6,10 +6,13 @@
 #include <cstring>
 
 using namespace std;
+/**
+* @brief Person Struct
+*/
 struct Person{
-	string name;
-	string vorname;
-	string geburtsdatum;
+	string name; ///< Name der Person
+	string vorname; ///< Vorname der Person
+	string geburtsdatum; ///< Geburtsdatum der Person
 };
 
 #endif 

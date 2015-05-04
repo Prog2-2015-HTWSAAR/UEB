@@ -12,7 +12,9 @@
 #include <string>
 #include <cstring>
 #include "ueb01.h"
-
+/**
+* @brief INDEXVAR Maximale Feldgroesse fuer die Personenstruktur
+*/
 #define INDEXVAR 100
 
 /**
