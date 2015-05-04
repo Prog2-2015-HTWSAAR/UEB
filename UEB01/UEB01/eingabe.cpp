@@ -1,12 +1,16 @@
 /**
-* @file ueb01.cpp
+* @file eingabe.cpp
 * @Author Andreas Schreiner & Simon Bastian
 * @date 2015
 *
 * Eingabe Funktionen
 */
 #include "ueb01.h"
-
+/**
+* @brief lesePerson fkt
+* @details Funktion zum lesen von Personen
+* @param[in] *subjekt Die Person dessen Daten eingelesen werden
+*/
 void lesePerson(Person *subjekt){
 	cout << "Name: ";
 	cin >> subjekt->name;
@@ -16,7 +20,13 @@ void lesePerson(Person *subjekt){
 	cin >> subjekt->geburtsdatum;
 
 }
-
+/**
+* @brief steuereEingabe fkt
+* @details Funktion zur Steuerung der Eingabe
+* @param[in] *structArray Ein Array von Personen
+* @param[in] maxanzahl Groesse des Arrays
+* @param[out] saetze Anzahl der tatsaechlich gelesenen Saetze
+*/
 int steuereEingabe(Person *structArray, int maxanzahl){
 	int saetze = 0;
 	int ende = 0;
