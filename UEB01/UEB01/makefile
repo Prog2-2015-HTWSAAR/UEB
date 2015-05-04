@@ -1,12 +1,18 @@
-VERSION = 1
-CFLAGS  = -Wall -pedantic
-all: create_o	
-clean:	remove_o
-	
-remove_o:	create_o
-	rm *.o	
-create_o:	create_prog
-	g++ $(CFLAGS) -c *.cpp
-	
-create_prog:
-	g++ $(CFLAGS) -o prog *.o
+makefile:
+DEL_LIST = *.o *.exe *stackdump
+
+
+all: project_ueb_01     
+        g++ -o ueb01 *.o
+clean:
+        rm -f $(DEL_LIST)
+rebuild: clean all
+project_ueb_01: 
+        g++ -c -Wall -pedantic *.cpp
+
+
+~
+~
+~
+~
+~
