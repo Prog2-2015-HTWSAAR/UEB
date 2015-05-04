@@ -10,7 +10,7 @@
 /**
 * @brief tausch fkt
 * @details Funktion zum tauschen einer Person
-* @param[in] *personen
+* @param[in] *personen pointer auf Personenstruktur
 * @param[in] person1 erster satz, welcher mit dem 2. satz getauscht wird
 * @param[in] person2 zweiter satz, welcher mit dem 1. satz getauscht wird
 */
@@ -21,6 +21,15 @@ void tauschePersonen(Person *personen, int person1, int person2){
 
 }
 
+/**
+* @brief sortierePersonen fkt
+* @details Funktion zum erkennen, ob eine Tauschoperation noetig ist, fuehrt ggf den tausch aus
+* @param[in] *personen Pointer auf Personenstruktur
+* @param[in] saetze Anzahl der Saetze die eingelesen wurden
+* @param[out] personen  Personenstruktur
+* @param[out] i erster satz, welcher mit dem 2. satz getauscht wird
+* @param[out] min_pos zweiter satz, welcher mit dem 1. satz getauscht wird(minimum)
+*/
 void sortierePersonen(Person *personen, int saetze){
 	int min_pos = 0;
 	for (int i = 0; i < saetze; i++){
