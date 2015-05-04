@@ -1,5 +1,6 @@
 /**
-* compile: g++ -c -o -Wall -pedantic *.cpp per make
+* compile: g++ -c -Wall -pedantic *.cpp 
+* compile: g++ -o ueb01 *.o
 * @file ausgabe.cpp
 * @Author Andreas Schreiner & Simon Bastian
 * @date 2015

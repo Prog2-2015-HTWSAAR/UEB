@@ -1,5 +1,6 @@
 /**
-* compile: g++ -c -o -Wall -pedantic *.cpp per make
+* compile: g++ -c -Wall -pedantic *.cpp
+* compile: g++ -o ueb01 *.o
 * @mainpage Person
 * @file ueb01.cpp
 * @Author Andreas Schreiner & Simon Bastian
