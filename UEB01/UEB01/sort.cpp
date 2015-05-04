@@ -1,3 +1,10 @@
+/**
+* @file ueb01.cpp
+* @Author Andreas Schreiner & Simon Bastian
+* @date 2015
+*
+* Funktionen, zum Sortieren des structs
+*/
 #include "ueb01.h"
 
 void tauschePersonen(Person *personen, int person1, int person2){

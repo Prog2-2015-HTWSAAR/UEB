@@ -1,3 +1,10 @@
+/**
+* @file ueb01.cpp
+* @Author Andreas Schreiner & Simon Bastian
+* @date 2015
+*
+* Eingabe Funktionen
+*/
 #include "ueb01.h"
 
 void lesePerson(Person *subjekt){

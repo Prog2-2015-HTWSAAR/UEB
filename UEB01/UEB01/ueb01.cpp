@@ -1,3 +1,12 @@
+/**
+* @file ueb01.cpp
+* @Author Andreas Schreiner & Simon Bastian
+* @date 2015
+*
+* Main Funktion
+* 
+
+*/
 #include <iostream>
 #include <string>
 #include <cstring>
