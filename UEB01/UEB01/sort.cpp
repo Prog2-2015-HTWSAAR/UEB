@@ -38,11 +38,11 @@ void sortierePersonen(Person *personen, int saetze){
 		//Bestimme Position des Minimuns
 		for (int j = i + 1; j < saetze; j++){
 
-			if (personen[min_pos].name.compare(0, personen[i].name.size(), personen[j].name, 0, personen[j].name.size()) == 1){
+			if (personen[min_pos].name.compare(0, personen[i].name.size(), personen[j].name, 0, personen[j].name.size()) >= 1){
 				min_pos = j;
 			}
 			if (personen[min_pos].name.compare(0, personen[i].name.size(), personen[j].name, 0, personen[j].name.size()) == 0){
-				if (personen[min_pos].vorname.compare(0, personen[i].vorname.size(), personen[j].vorname, 0, personen[j].vorname.size()) == 1){
+				if (personen[min_pos].vorname.compare(0, personen[i].vorname.size(), personen[j].vorname, 0, personen[j].vorname.size()) >= 1){
 					min_pos = j;
 				}
 			}
