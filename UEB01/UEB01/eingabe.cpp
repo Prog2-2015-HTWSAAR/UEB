@@ -18,8 +18,12 @@ void lesePerson(Person *subjekt){
 	cin >> subjekt->name;
 	cout << "Vorname: ";
 	cin >> subjekt->vorname;
-	cout << "Geburtsdatum: ";
-	cin >> subjekt->geburtsdatum;
+	cout << "Geburtsdatum: \n Tag: ";
+	cin >> subjekt->geburtsdatum.tag;
+	cout << " Monat: ";
+	cin >> subjekt->geburtsdatum.monat;
+	cout << " Jahr: ";
+	cin >> subjekt->geburtsdatum.jahr;
 
 }
 /**

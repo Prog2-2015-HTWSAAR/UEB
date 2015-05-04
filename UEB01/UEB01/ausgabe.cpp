@@ -15,7 +15,9 @@
 * @param[in] *subjekt pointer auf eine Person
 */
 void schreibePerson(Person *subjekt){
-	cout << "Name :" << subjekt->name << "|| Vorname: " << subjekt->vorname << "|| Geburtsdatum: " << subjekt->geburtsdatum << endl;
+	cout << "Name :" << subjekt->name << "|| Vorname: " << subjekt->vorname << 
+		"|| Geburtsdatum: " << subjekt->geburtsdatum.tag << "." << subjekt->geburtsdatum.monat <<
+			"." << subjekt->geburtsdatum.jahr << endl;
 }
 /**
 * @brief steuereAusgabe fkt

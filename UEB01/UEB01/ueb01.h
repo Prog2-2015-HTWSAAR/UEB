@@ -6,14 +6,26 @@
 #include <cstring>
 
 using namespace std;
+
+/**
+* @brief DAtum Struct
+*/
+struct Datum{
+	int tag; ///< Tag des Datums
+	int monat; ///< Monat des Datums
+	int jahr; ///< Jahr des Datums
+};
+
 /**
 * @brief Person Struct
 */
 struct Person{
 	string name; ///< Name der Person
 	string vorname; ///< Vorname der Person
-	string geburtsdatum; ///< Geburtsdatum der Person
+	Datum geburtsdatum; ///< Geburtsdatum der Person
 };
+
+
 
 #endif 
 void lesePerson(struct Person *structArray);
